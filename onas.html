@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О нас - Аквалайн</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #fff;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 2;
+      margin-bottom: 10px;
+      text-indent: 20px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+      position: relative;
+    }
+
+    nav ul li ul {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      top: 40px;
+      display: none;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: #00a2ff;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li ul {
+        left: 0;
+        right: 0;
+      }
+    }
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    footer li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="файл.html">Бренды</a></li>
+        <li>
+          <a href="service.html">Услуги</a>
+          <ul>
+            <li><a href="service.html#delivery">Доставка</a></li>
+            <li><a href="service.html#bottling">Розлив</a></li>
+          </ul>
+        </li>
+
+        <li><a href="onas.html">О нас</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Кто мы?</h2>
+    <p>Компания "Аквалайн" - лидер на рынке услуг по доставке и розливу воды.</p>
+    <h2>Наша миссия</h2>
+    <p>Мы стремимся предоставить нашим клиентам высококачественные услуги и продукты, чтобы удовлетворить все их потребности в чистой и свежей воде.</p>
+    <h2>Почему выбирают нас?</h2>
+    <p>Мы гордимся нашими высокими стандартами обслуживания и преданностью удовлетворению потребностей наших клиентов.</p>
+  </main>
+  <footer>
+    <div id="map">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af94f4afc85d27a9e19b4f8a2203e14d63239271d95cfdadbc54b789617a35378&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="brands.html">Бренды</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="onas.html">О нас</a></li>
+      </ul>
+  </footer>
+</body>
+</html>

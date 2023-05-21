@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <title>Бренды</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #348AC7, #7474BF);
+      color: #fff;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #000;
+      width: 200px;
+      margin: 20px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+      transition: transform .2s;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+    }
+
+    .card img {
+      width: 100%;
+    }
+
+    .card h3 {
+      padding: 10px;
+      margin: 0;
+    }
+
+    .card p {
+      padding: 0 10px 10px;
+      margin: 0;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    footer li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #00a2ff;
+        }
+
+        #services {
+            padding: 50px;
+            text-align: center;
+        }
+
+
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="файл.html">Бренды</a></li>
+        <li><a href="service.html">Услуги</a>
+            <ul>
+                <li><a href="service.html#delivery">Доставка</a></li>
+                <li><a href="service.html#bottling">Розлив</a></li>
+            </ul>
+        </li>
+        <li><a href="onas.html">О нас</a></li>
+    </ul>
+    </nav>
+  <div class="container">
+    <div class="card">
+      <img src="https://aqualine.ru/upload/iblock/2ab/2abeee57a32d9b4afe219d14a62cbe67.png" alt="Brand 1">
+      <h3>Псыж</h3>
+      <p>Активатор жизненной энергии
+        Чтобы каждый день приносил удовольствие нужны энергия и хорошее самочувствие! Эффективный помощник в этих вопросах - вода ПСЫЖ.
+        
+        ПСЫЖ является лечебно-столовой водой и позитивно влияет на работу ЖКТ, в особенности на обмен веществ в организме. Но самое главное – он помогает нашему организму в выработке СЕРОТОНИНА (гормона счастья).
+        
+        Ведь когда мы счастливы и полны энергии - мир вокруг становится ярче, а все задачи достижимыми!
+        
+        Пейте ПСЫЖ и заряжайтесь позитивной энергией!</p>
+    </div>
+    <div class="card">
+      <img src="https://aqualine.ru/upload/iblock/fa7/fa7c64bb215bcc9517742caea523199a.png" alt="Brand 2">
+      <h3>Архыз</h3>
+      <p>Настоящие эмоции вместе с АРХЫЗ
+        Местом рождения воды Легенда гор АРХЫЗ* является один из прекраснейших уголков России - Архызское ущелье, Карачаево - Черкесская республика.
+        
+        Находится ущелье в горах Кавказа, на высоте 1100 м, вдали от антропогенного воздействия. Это заповедная территория у границы Тебердинского национального парка.</p>
+    </div>
+    <div class="card">
+      <img src="https://aqualine.ru/upload/iblock/6fa/6fa2083e755ca59d7c87bacfadcd5543.png" alt="Brand 3">
+      <h3>Горная вершина</h3>
+      <p>Природная минеральная вода на каждый день
+        Питьевая вода ГОРНАЯ ВЕРШИНА – самая популярная горная вода в объеме 19л. Продается в 56 регионах России, где живут более 100 млн.человек.
+        
+        Горная вершина добывается из месторождения, где берут начало чистейшие горные родники. Однажды попробовав вкус настоящей горной воды, вы будете покупать ее снова и снова.</p>
+    </div>
+    <div class="card">
+      <img src="https://aqualine.ru/upload/resize_cache/iblock/7ec/540_589_0/7ec03e2e381f891c1946897ee5e7b06a.png" alt="Brand 4">
+      <h3>Для ляль</h3>
+      <p>Природная минеральная вода на каждый день
+        Питьевая вода ГОРНАЯ ВЕРШИНА – самая популярная горная вода в объеме 19л. Продается в 56 регионах России, где живут более 100 млн.человек.
+        
+        Горная вершина добывается из месторождения, где берут начало чистейшие горные родники. Однажды попробовав вкус настоящей горной воды, вы будете покупать ее снова и снова.</p>
+    </div>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="brands.html">Бренды</a></li>
+      <li><a href="service.html">Услуги</a></li>
+      <li><a href="onas.html">О нас</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
